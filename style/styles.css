@@ -214,7 +214,7 @@ nav li a{
   font-optical-sizing: auto;
   font-style: normal;
 }
-input[type="text"], input[type="email"]{
+input[type="text"], input[type="email"], textarea{
     width: 497px;
     height: 70px;
     border-radius: 10px;
