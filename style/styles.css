@@ -11,9 +11,9 @@
   font-style: normal;
 }
 
-.logo{
+.nav a{
     color:#4E47FF;
-    font-size: 34px;
+    font-size:34px;
     font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -54,12 +54,24 @@ nav li a{
 .fonts{
     font-size: 65px;
 }
+.btn-color{
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: none;
+}
+.btn-color:hover{
+    background-color: orange;
+}
 .button{
     width: 174px;
     height: 48px;
     border-radius: 16px;
     background-color: #4E47FF;
     color: white;
+    border: none;
 }
 .button:hover{
     background-color: orange;
@@ -99,6 +111,7 @@ nav li a{
     width: 229px;
     height: 48px;
     border-radius: 10px;
+    border: none;
 }
 .Action button:hover{
     background-color: orange;
@@ -193,6 +206,10 @@ nav li a{
     width: 196px;
     height: 48px;
     border-radius: 10px;
+    border: none;
+}
+.focus button:hover{
+    background-color: orange;
 }
 .focus img{
     border-radius: 48px;
@@ -235,6 +252,7 @@ input[type="text"], input[type="email"], textarea{
     background-color: #4E47FF;
     color: black;
     width: 100%;
+    border: none;
 }
 .btn:hover{
     background-color: orange;
@@ -272,5 +290,6 @@ footer{
 }
 .about-list a{
   text-decoration: none;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
+  color: rgba(137, 135, 161, 1);
 }
