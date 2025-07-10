@@ -20,23 +20,25 @@
 }
 header{
     background-image: url(../Assets/Hero-bg.png);
-    width:1140px ;
+    /* width:1140px ; */
     height: 698px;
     background-size: cover;
 }
 nav{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     
 }
 nav ul{
     display: flex;
    
+   
 }
 nav ul li{
     list-style: none;
    margin-left: 50px;
+  
   
 }
 nav li a{
@@ -63,7 +65,7 @@ nav li a{
     background-color: orange;
 }
 .section-1{
-    margin: 46px 192px 115px 108px;
+    padding: 46px 160px 115px 140px;
 }
 .Action{
     display: flex;
@@ -241,14 +243,34 @@ footer{
     width: 1440px;
     height: 428px;
     background-color: #FFFFFF;
+
+   
 }
-footer h1{
-    /* width: 291px; */
-    height: 121px;
+.elevate{
+    text-align: center;
+    margin: 104px 455px 103px 454px;
+}
+.elevate h1{
+     height: 121px;
     font-size: 100px;
        font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   color: #4E47FF;
  text-align: center;
+}
+.elevate p{
+   /* width: 531px; */
+   height: 48px;
+}
+.about-list{
+   display: flex;
+    gap: 48px; 
+    padding: 20px 65px 0px 65px;"
+  
+   
+}
+.about-list a{
+  text-decoration: none;
+  background: #FFFFFF;
 }
