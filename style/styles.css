@@ -21,12 +21,11 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    h
+    
 }
 nav{
     display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
+justify-content: space-between;
     
 }
 nav ul{
@@ -42,8 +41,14 @@ nav ul li{
 }
 nav li a{
     text-decoration: none;
-    font-size: 16px;
-   
+    font-size: 34px;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  height: 51px;
+
 }
 
 .hero-section{
@@ -77,13 +82,19 @@ nav li a{
     background-color: orange;
 }
 .section-1{
-    padding: 46px 160px 115px 140px;
+ 
+    margin: 137px 149px 92px 151px;
+    border: 2px solid tomato;
+   
 }
 .Action{
     display: flex;
     align-items: center;
-    /* padding: 62px 220px 62px 0px; */
+    border: 2px solid goldenrod;
+    justify-content: space-between;
+  
 }
+
 .Action h2{
     font-size: 42px;
      font-family: "Raleway", sans-serif;
@@ -94,6 +105,10 @@ nav li a{
     border-radius: 48px;
     width: 403px;
     height: 328px;
+    display: flex;
+    align-items: end;
+ 
+   
 
 }
 .Action p{
@@ -122,6 +137,7 @@ nav li a{
     border-radius: 10px;
     width: 1140px;
     margin: 115px 159px 137px 141px;
+    border: 2px solid plum;
 
 }
 .section-2 h2{
@@ -131,6 +147,7 @@ nav li a{
   font-optical-sizing: auto;
   font-style: normal;
   display: block;
+  
 }
 .box{
     display: flex;
@@ -192,6 +209,7 @@ nav li a{
     width: 1140px;
     height: 696px;
     text-align: center;
+    border: 2px solid red;
 }
 .focus h2{
     font-size: 50px;
@@ -216,11 +234,13 @@ nav li a{
     margin: 20px 150px 71px 150px;
 }
 .section-4{
-    margin: 92px 150px 14px 150px;
+    /* border: 92px 150px 14px 150px; */
+    margin: 137px 149px 92px 151px;
     display: flex;
     gap: 110px;
     border: 2px solid tan;
     background-color: #F5F8FF;
+    text-align: center;
    
 }
 .section-title{
@@ -232,7 +252,7 @@ nav li a{
   font-style: normal;
 }
 input[type="text"], input[type="email"], textarea{
-    width: 497px;
+    width: 400px;
     height: 70px;
     border-radius: 10px;
     background-color: #FFFFFF;
@@ -244,6 +264,7 @@ input[type="text"], input[type="email"], textarea{
   margin-bottom: 19px;
   margin-top: 19px;
   border: #D6DDED;
+ 
 }
 .btn{
     width: 497px;
@@ -261,6 +282,8 @@ footer{
     width: 1440px;
     height: 428px;
     background-color: #FFFFFF;
+    padding: 92pz 150px 14px 150px;
+    border: 2px solid red;
 
    
 }
@@ -293,3 +316,4 @@ footer{
   background-color: #FFFFFF;
   color: rgba(137, 135, 161, 1);
 }
+
