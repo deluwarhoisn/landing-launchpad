@@ -65,7 +65,7 @@ nav {
 }
 
 .button:hover {
-  background-color: orange;
+  background-color:orange;
 }
 
 .section-1 {
@@ -245,7 +245,7 @@ nav {
 }
 .box-no-1 p {
   font-size: 15px;
-  color: #444;
+  
   margin: 0 0 10px 0;
   font-family: "Inter", sans-serif;
 }
@@ -262,15 +262,16 @@ nav {
 }
 .reviewe-text {
   font-size: 14px;
-  color: #222;
+  color: black;
   font-family: "Inter", sans-serif;
   margin: 0;
 }
 .reviewe-date {
-  font-size: 13px;
+  font-size: 8px;
   color: #888ba0;
   font-family: "Inter", sans-serif;
   margin: 0;
+ 
 }
  
 
@@ -280,6 +281,9 @@ nav {
   height: 696px;
   text-align: center;
   border-radius: 20px;
+}
+.focus p{
+    color: gray;
 }
 
 .focus h2 {
@@ -327,7 +331,9 @@ footer {
 .elevate {
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 16px;
+  padding-bottom: 147px;
+  padding-top: 100px;
+
 }
 .footer-logo {
   font-size: 56px;
