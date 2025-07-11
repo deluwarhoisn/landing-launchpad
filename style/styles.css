@@ -233,42 +233,48 @@ nav {
 }
 
 footer {
-  width: 1440px;
-  height: 428px;
-  background-color: #ffffff;
-  padding: 92pz 150px 14px 150px;
-  border: 2px solid red;
+  width: 100%;
+  background: #fff;
+  padding: 32px 0 0 0;
+  border: none;
+  margin-top: 0;
 }
-
 .elevate {
   text-align: center;
-  margin: 104px 455px 103px 454px;
+  margin: 0 auto;
+  padding-bottom: 16px;
 }
-
-.elevate h1 {
-  height: 121px;
-  font-size: 100px;
+.footer-logo {
+  font-size: 56px;
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+  font-weight: 800;
   color: #4e47ff;
-  text-align: center;
+  margin: 0 0 12px 0;
+  letter-spacing: 2px;
 }
-
-.elevate p {
-  height: 48px;
+.footer-desc {
+  color: #888ba0;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  margin: 0 0 18px 0;
+  line-height: 1.4;
 }
-
 .about-list {
   display: flex;
-  gap: 48px;
-  padding: 20px 65px 0px 65px;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
 }
-
 .about-list a {
   text-decoration: none;
-  background-color: #ffffff;
-  color: rgba(137, 135, 161, 1);
+  color: #888ba0;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  transition: color 0.2s;
+}
+.about-list a:hover {
+  color: #4e47ff;
 }
 .logo {
   text-decoration: none;
