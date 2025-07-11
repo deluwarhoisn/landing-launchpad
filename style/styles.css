@@ -1,364 +1,375 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F5F8FF;
+}
 .raleway-normal {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 80px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 80px;
 }
 
 .inter-normal-2 {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-
-header{
-    background-image: url(../Assets/Hero-bg.png);
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin: 0 auto;
-
+header {
+  background-image: url(../Assets/Hero-bg.png);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 80px;
-   
-
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 80px;
 }
 .hero-section {
-    text-align: center;
-    margin: 200px 267px 152px 267px;
-    font-size: 20;
-
+  text-align: center;
+  margin: 200px 267px 152px 267px;
+  font-size: 20;
 }
 
 .fonts {
-    font-size: 65px;
+  font-size: 65px;
 }
 
 .btn-color {
-    width: 132px;
-    height: 48px;
-    border-radius: 10px;
-    background-color: #4E47FF;
-    color: #FFFFFF;
-    border: none;
+  width: 132px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: #4e47ff;
+  color: #ffffff;
+  border: none;
 }
 
 .btn-color:hover {
-    background-color: orange;
+  background-color: orange;
 }
 
 .button {
-    width: 174px;
-    height: 48px;
-    border-radius: 16px;
-    background-color: #4E47FF;
-    color: white;
-    border: none;
+  width: 174px;
+  height: 48px;
+  border-radius: 16px;
+  background-color: #4e47ff;
+  color: white;
+  border: none;
 }
 
 .button:hover {
-    background-color: orange;
+  background-color: orange;
 }
 
 .section-1 {
-
-    margin: 137px 149px 92px 151px;
- 
-
+  margin: 137px 149px 92px 151px;
 }
 
 .Action {
-    display: flex;
-    align-items: center;
-   
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
 
+  justify-content: space-between;
 }
 
 .Action h2 {
-    font-size: 42px;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  font-size: 42px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .Action img {
-    border-radius: 48px;
-    width: 403px;
-    height: 328px;
-    display: flex;
-    align-items: end;
+  border-radius: 48px;
+  width: 403px;
+  height: 328px;
+  display: flex;
+  align-items: end;
 }
 
 .Action p {
-    width: 517px;
-    height: 60px;
-    font-size: 24px;
-    top: 30px;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  width: 517px;
+  height: 60px;
+  font-size: 24px;
+  top: 30px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .Action button {
-    background-color: #4E47FF;
-    color: white;
-    width: 229px;
-    height: 48px;
-    border-radius: 10px;
-    border: none;
+  background-color: #4e47ff;
+  color: white;
+  width: 229px;
+  height: 48px;
+  border-radius: 10px;
+  border: none;
 }
 
 .Action button:hover {
-    background-color: orange;
+  background-color: orange;
 }
 
 .section-2 {
-    /* margin: 115px 159px 137px 141px; */
-    background-color: #E5E7FF;
-    border-radius: 10px;
-    width: 1140px;
-    margin: 115px 159px 137px 141px;
-    border: 2px solid plum;
-
+  /* margin: 115px 159px 137px 141px; */
+  background-color: #e5e7ff;
+  border-radius: 10px;
+  width: 1140px;
+  margin: 115px 159px 137px 141px;
+  border: 2px solid plum;
 }
 
 .section-2 h2 {
-    text-align: center;
-    font-size: 38px;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    display: block;
-
+  text-align: center;
+  font-size: 38px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display: block;
 }
 
 .box {
-    display: flex;
-    padding: 0px 142px 50px 142px;
-    gap: 158px;
-    padding: 80px;
-    background-color: aquamarine;
-    justify-content: space-between;
+  display: flex;
+  padding: 0px 142px 50px 142px;
+  gap: 158px;
+  padding: 80px;
+  background-color: aquamarine;
+  justify-content: space-between;
 }
 
 .box-2 {
-
-
-    font-size: 38px;
+  font-size: 38px;
 }
 
 .box h1 {
-    font-size: 80px;
-    color: #4E47FF;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin: 0;
+  font-size: 80px;
+  color: #4e47ff;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
 }
 
 .box p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .section-3 {
-    margin: 151px 150px;
-    width: 1140px;
-    height: 542px;
-    border: 2px solid red;
-
+  margin: 151px 150px;
+  width: 1140px;
+  height: 542px;
+  border: 2px solid red;
 }
 
 .box-no-1 {
-    border: 1px solid green;
-    width: 366px;
-    height: 243px;
-    padding: 24px;
-    background-color: #Ffffff;
-
-
-
+  border: 1px solid green;
+  width: 366px;
+  height: 243px;
+  padding: 24px;
+  background-color: #ffffff;
 }
 
 .box-no-2 {
-    display: flex;
-    gap: 20px;
-    padding: 50px;
+  display: flex;
+  gap: 20px;
+  padding: 50px;
 }
 
 .section-3 h2 {
-    font-size: 42px;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-align: center;
-
+  font-size: 42px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
 }
 
 .focus {
-    
-    background-color: #FFFFFF;
-    width: 100%;
-    height: 696px;
-    text-align: center;
- 
+  background-color: #ffffff;
+  width: 100%;
+  height: 696px;
+  text-align: center;
 }
 
 .focus h2 {
-    font-size: 50px;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .focus button {
-    background-color: #4E47FF;
-    color: white;
-    width: 196px;
-    height: 48px;
-    border-radius: 10px;
-    border: none;
+  background-color: #4e47ff;
+  color: white;
+  width: 196px;
+  height: 48px;
+  border-radius: 10px;
+  border: none;
 }
 
 .focus button:hover {
-    background-color: orange;
+  background-color: orange;
 }
 
 .focus img {
-    border-radius: 48px;
-    margin: 20px 150px 71px 150px;
+  border-radius: 48px;
+  margin: 20px 150px 71px 150px;
 }
 
 .section-4 {
-    /* border: 92px 150px 14px 150px; */
-    margin: 137px 149px 92px 151px;
-    display: flex;
-    gap: 110px;
-    border: 2px solid tan;
-    background-color: #F5F8FF;
-    text-align: center;
-
-}
-
-.section-title {
-    font-size: 97px;
-    /* width: 528px; */
-    height: 232px;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    padding: 200px 612px 200px 0px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 400px;
-    height: 70px;
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    font-size: 20px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    padding: 20px 200px 20px 32px;
-    margin-bottom: 19px;
-    margin-top: 19px;
-    border: #D6DDED;
-
-}
-
-.btn{
-    width: 497px;
-    height: 62px;
-    font-size: 16px;
-    border-radius: 10px;
-
-    background-color: #4E47FF;
-    color: #F5F8FF;
-    width: 100%;
-    border: none;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-
-.btn:hover {
-    background-color: orange;
-}
-
-.column {
-    padding: 71px 0px 71px 43px;
+  /* border: 92px 150px 14px 150px; */
+  margin: 137px 149px 92px 151px;
+  display: flex;
+  gap: 110px;
+  border: 2px solid tan;
+  background-color: #f5f8ff;
+  text-align: center;
 }
 
 footer {
-    width: 1440px;
-    height: 428px;
-    background-color: #FFFFFF;
-    padding: 92pz 150px 14px 150px;
-    border: 2px solid red;
-
-
+  width: 1440px;
+  height: 428px;
+  background-color: #ffffff;
+  padding: 92pz 150px 14px 150px;
+  border: 2px solid red;
 }
 
 .elevate {
-    text-align: center;
-    margin: 104px 455px 103px 454px;
+  text-align: center;
+  margin: 104px 455px 103px 454px;
 }
 
 .elevate h1 {
-    height: 121px;
-    font-size: 100px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    color: #4E47FF;
-    text-align: center;
+  height: 121px;
+  font-size: 100px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #4e47ff;
+  text-align: center;
 }
 
 .elevate p {
-    height: 48px;
+  height: 48px;
 }
 
 .about-list {
-    display: flex;
-    gap: 48px;
-    padding: 20px 65px 0px 65px;
+  display: flex;
+  gap: 48px;
+  padding: 20px 65px 0px 65px;
 }
 
 .about-list a {
-    text-decoration: none;
-    background-color: #FFFFFF;
-    color: rgba(137, 135, 161, 1);
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgba(137, 135, 161, 1);
 }
-.logo{
-      text-decoration: none;
-    font-size: 36px;
-    color: #4E47FF;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: bold;
-  
+.logo {
+  text-decoration: none;
+  font-size: 36px;
+  color: #4e47ff;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
 }
-.review{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.review {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-.review img{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+.review img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
-.review-date{
-    color: gray ;
+.review-date {
+  color: gray;
+}
+
+.section-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 400px;
+  padding: 60px 0;
+  background: #f7f9fd;
+  gap: 40px;
+}
+.section-title {
+  font-size: 56px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0 40px 0 0;
+  color: #111;
+}
+.column {
+  width: 420px;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-5 form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  background: none;
+}
+.section-5 form h2 {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  margin: 0 0 4px 2px;
+  color: #222;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  height: 48px;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  padding: 0 16px;
+  border: 1.5px solid #e0e4ef;
+  margin: 0 0 12px 0;
+  box-sizing: border-box;
+  transition: border 0.2s;
+}
+textarea {
+  height: 90px;
+  padding: 12px 16px;
+  resize: vertical;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border: 1.5px solid #4e47ff;
+  outline: none;
+}
+.btn {
+  height: 48px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #4e47ff;
+  color: #fff;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+.btn:hover {
+  background-color: #222;
+  color: #ffe600;
 }
